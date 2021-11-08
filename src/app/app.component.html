@@ -8,9 +8,9 @@
     <div class="col">
       <img src="assets/logo_header.png">
     </div>
-    <div class="col d-flex justify-content-end   align-items-center">
-      <i class="bi bi-list px-5" style="font-size: 40px;"></i>
-      <div class="menubg d-none" [class.d-block]="showLoginMenu">'
+    <div class="col d-flex justify-content-end   align-items-center ">
+      <i class="bi bi-list px-5" style="font-size: 40px;" (click)="toggleShow()"></i>
+      <div class="menubg "*ngIf="Show"  >'
         <h6 class="font-weight-bold">MY ACCOUNT</h6>
         <section class="">'
 

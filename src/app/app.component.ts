@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'brandyuva';
- showLoginMenu =false
+  Show: boolean = false ; // hidden by default
 
+
+  toggleShow() {
+  
+  this.Show = ! this.Show;
+  
+  }
 }
