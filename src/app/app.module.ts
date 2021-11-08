@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './Component/footer/footer.component';
@@ -13,6 +13,8 @@ import { InvoiceComponent } from './Pages/invoice/invoice.component';
 import { UpdateComponent } from './Pages/update/update.component';
 import { CustomerordersComponent } from './Pages/customerorders/customerorders.component';
 import { StoreorderComponent } from './Pages/storeorder/storeorder.component';
+import { LoginComponent } from './Popups/login/login.component';
+import {MatDialogModule} from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -26,12 +28,16 @@ import { StoreorderComponent } from './Pages/storeorder/storeorder.component';
     InvoiceComponent,
     UpdateComponent,
     CustomerordersComponent,
-    StoreorderComponent
+    StoreorderComponent,
+    LoginComponent
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatDialogModule
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

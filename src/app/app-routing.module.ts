@@ -10,6 +10,7 @@ import { NotificationComponent } from './Pages/notification/notification.compone
 import { ProfileComponent } from './Pages/profile/profile.component';
 import { StoreorderComponent } from './Pages/storeorder/storeorder.component';
 import { UpdateComponent } from './Pages/update/update.component';
+// import { LoginComponent } from './Popups/login/login.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/profile', pathMatch: 'full' },
@@ -21,6 +22,8 @@ const routes: Routes = [
   { path: 'gsn', component: GsnComponent },
   { path: 'update', component: UpdateComponent },
   { path: 'invoice', component: InvoiceComponent },
+
+
   { path: '**', component: ProfileComponent },
 
 
