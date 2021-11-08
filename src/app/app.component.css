@@ -1,0 +1,25 @@
+.bg {
+    background-color: #e1ffa2;
+}
+
+.headerbg {
+    background-color: #cbbdff;
+}
+
+.menu {
+    position: absolute;
+    right: 100px;
+}
+
+.routerbg {
+    background-color: #eae4ff;
+}
+
+.menubg {
+    background-color: #e5deff;
+    padding: 10px 80px 10px 25px;
+    position: absolute;
+    top: 4rem;
+    z-index: 100;
+    right: 6rem;
+}

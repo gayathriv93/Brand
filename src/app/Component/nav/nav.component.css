@@ -1,0 +1,22 @@
+.bgnav {
+    background-color: #ebebea;
+}
+a{
+    text-decoration: none;
+    background-color: #e1ffa2;
+    color: black;
+    width: 150px; 
+    height: 35px;
+    margin-left: 15px;
+    padding-top:5px ;
+}
+a:hover {
+    color: blue;
+  
+}
+.active
+ {
+   border: 2px solid #e1ffa2; 
+   background-color: white;
+   font-weight: bold;
+}

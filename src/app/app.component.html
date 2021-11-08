@@ -1,0 +1,42 @@
+<div class="container-fluid bg py-1">
+  <div class="row justify-content-center align-items-center small p-1">
+    <span class="font-weight-bold mr-1 ">Cookies Acceptance </span> Brandnew uses cookies to give our user the best
+    possible experience,byusing this websites you agree to our cookie policy.
+    <a class="bg-white text-dark small font-weight-bold p-2" href="#">ACCEPT</a>
+  </div>
+  <header class="headerbg row position-relative">
+    <div class="col">
+      <img src="assets/logo_header.png">
+    </div>
+    <div class="col d-flex justify-content-end   align-items-center">
+      <i class="bi bi-list px-5" style="font-size: 40px;"></i>
+      <div class="menubg d-none" [class.d-block]="showLoginMenu">'
+        <h6 class="font-weight-bold">MY ACCOUNT</h6>
+        <section class="">'
+
+          <a class="d-block text-dark" href="#">Dashboard</a>
+          <a class="d-block text-dark" href="#">Login</a>
+          <a class="d-block text-dark" href="#">Logout</a>
+          <hr>
+          <div>
+            <a class="d-block text-dark" href="/">Contact Us</a>
+          </div>
+
+        </section>
+
+      </div>
+      <div>
+
+      </div>
+
+    </div>
+  </header>
+  <app-nav></app-nav>
+  <div class="row p-5 routerbg">
+    <router-outlet>
+
+    </router-outlet>
+  </div>
+
+  <app-footer></app-footer>
+</div>
